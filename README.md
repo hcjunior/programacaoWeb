@@ -9,7 +9,7 @@ O jdk e o apache tomcat são de fácil instalação, quanto ao eclipse, deve ser esc
 
 • Passo 2: Após instalar os programas, o próximo passo é conectar o servidor do tomcat no eclipse, para isso basta selecionar a opção servers no eclipse ou caso não esteja aparecendo a opção, clicar em "Window", depois "show view" e selecionar "servers", clicar na opção em azul para criar um novo server, selecionar o servidor do tomcat v8.5 e selecionar o caminho no qual o tomcat está armazenado. Feito isso o tomcat estará funcionando e o projeto poderá ser iniciado.
 
-** 2 - Descreva os passos para se criar e executar um projeto web simples usando essas ferramentas. **
+**2 - Descreva os passos para se criar e executar um projeto web simples usando essas ferramentas.**
 
 • Passo 1: Aperte 'CTRL + N', ou vá na opção "File", ou clique com o botão direito do mouse na aba do "Project Explorer", vá em "new" e selecione "other...".
 
@@ -19,6 +19,6 @@ O jdk e o apache tomcat são de fácil instalação, quanto ao eclipse, deve ser esc
 
 • Passo 4: Executar o projeto no servidor Tomcat, para isso pressione, 'alt + shift + x' e logo em seguida pressione 'r'.
 
-** 3 - Qual o link para clonar o seu projeto? **
+**3 - Qual o link para clonar o seu projeto?**
 
 https://github.com/hcjunior/programacaoWeb
