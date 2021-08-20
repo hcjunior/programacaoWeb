@@ -2,7 +2,7 @@
 
 ## ATIVIDADE 01
 
-** 1- Descreva os passos necessários para estar com o ambiente Eclipse + Apache Tomcat preparado para iniciar a programação web. **
+**1- Descreva os passos necessários para estar com o ambiente Eclipse + Apache Tomcat preparado para iniciar a programação web.**
 
 • Passo 1: Fazer instalação dos programas necessarios, entre eles: JDK 16, Eclipse IDE e Apache Tomcat v8.5.
 O jdk e o apache tomcat são de fácil instalação, quanto ao eclipse, deve ser escolhida no momento da instalação a versão "Eclipse IDE for Enterprise Java and Web Developers", após escolher a versão aparecerá para escolher a versão do java a ser utilizado.
@@ -20,4 +20,5 @@ O jdk e o apache tomcat são de fácil instalação, quanto ao eclipse, deve ser esc
 • Passo 4: Executar o projeto no servidor Tomcat, para isso pressione, 'alt + shift + x' e logo em seguida pressione 'r'.
 
 ** 3 - Qual o link para clonar o seu projeto? **
+
 https://github.com/hcjunior/programacaoWeb
