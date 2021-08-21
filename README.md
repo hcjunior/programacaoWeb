@@ -35,4 +35,5 @@ O método get recebe a requisição por ancora e o método post recebe a requisição 
 
 **3 - Descreva os passos necessários para configurar uma aplicação web para que o Servlet aluno.MeuServlet possa ser executado. Anexe prints do ambiente configurado.**
 
-O servletHelitonChagas fica dentro de um package, e pode ser chamado através de tags como ancoras (<a href='servletHelitonChagas'>Clique aq</a>), ou botões de formularios atraves do action (<form action='servletHelitonChagas'><input type='submit' value='post'></form>.
+O servletHelitonChagas fica dentro de um package, e pode ser chamado através de tags como ancoras ```(<a href='servletHelitonChagas'>Clique aq</a>)```
+ou botões de formularios atraves do action ```(<form action='servletHelitonChagas'><input type='submit' value='post'></form>.```
