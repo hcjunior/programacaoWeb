@@ -22,3 +22,17 @@ O jdk e o apache tomcat são de fácil instalação, quanto ao eclipse, deve ser esc
 **3 - Qual o link para clonar o seu projeto?**
 
 https://github.com/hcjunior/programacaoWeb
+
+## ATIVIDADE 03
+
+**1 - Descreva o ciclo de vida dos Servlets.**
+
+O cliente manda uma solicitação para o servidor, o servidor acessa o conteúdo da servlet e invoca o método init() da servlet, após isso o servidor envia o conteúdo ao cliente e após concluir as atividades da servlet o servidor invoca o metodo destroy(), o qual encerra a servlet.
+
+**2 - Identifique quais métodos da classe HttpServlet estão envolvidos no processamento de requisições web. Descreva como esses métodos são utilizados para processar as requisições feitas pelos clientes através dos navegadores web.**
+
+O método get recebe a requisição por ancora e o método post recebe a requisição via action do botão submit.
+
+**3 - Descreva os passos necessários para configurar uma aplicação web para que o Servlet aluno.MeuServlet possa ser executado. Anexe prints do ambiente configurado.**
+
+O servletHelitonChagas fica dentro de um package, e pode ser chamado através de tags como ancoras (<a href='servletHelitonChagas'>Clique aq</a>), ou botões de formularios atraves do action (<form action='servletHelitonChagas'><input type='submit' value='post'></form>.

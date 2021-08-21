@@ -7,6 +7,8 @@
 <title>Aula de quinta-feira</title>
 </head>
 <body>
-<p><h1>Aula de quinta-feira!</h1></p>
+	<p>
+		<h1>Aula de quinta-feira!</h1>
+	</p>
 </body>
 </html>
