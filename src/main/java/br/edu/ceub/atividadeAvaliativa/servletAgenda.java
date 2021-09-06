@@ -1,4 +1,4 @@
-package br.edu.ceub.atividade02;
+package br.edu.ceub.atividadeAvaliativa;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -27,7 +27,11 @@ public class servletAgenda extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
+		response.getWriter().write("<html><body>"
+				+ "<p>Nome:" + request.getParameter("nome") + "<br>"
+				+ "Telefone: "+ request.getParameter("telefone") + "<br>"
+				+ "Data de nascimento: " + request.getParameter("datanascimento") + "<br></p>"
+				+ "</body></html>");
 	}
 
 	/**

@@ -1,4 +1,4 @@
-package br.edu.ceub.atividade02;
+package br.edu.ceub.atividadeAvaliativa;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class servletPaginaAgenda
+ * Servlet implementation class servletCalculadoraResultado
  */
-@WebServlet("/servletPaginaAgenda")
-public class servletPaginaAgenda extends HttpServlet {
+@WebServlet("/servletCalculadoraResultado")
+public class servletCalculadoraResultado extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public servletPaginaAgenda() {
+    public servletCalculadoraResultado() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,12 +27,11 @@ public class servletPaginaAgenda extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().write("<html><body><form action='servletAgenda' method='post'>"
-				+ "<input type='text' placeholder='nome'>"
-				+ "<input type='text' placeholder='telefone'>"
-				+ "<input type='date' placeholder='data de nascimento'>"
-				+ "<input type='submit' value='post'>"
-				+ "</form></body></html>");
+		double valor1 = Double.parseDouble(request.getParameter("valor1"));
+		double valor2 = Double.parseDouble(request.getParameter("valor2"));
+		double resultado = valor1 + valor2;
+		response.getWriter().write("<html><body><p>A soma dos parametros " + valor1 + " + " + valor2 + " é: " + resultado + "</p>");
+		response.getWriter().write("</body></html>");
 	}
 
 	/**
